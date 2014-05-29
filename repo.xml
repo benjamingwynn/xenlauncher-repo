@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<repo>
+    <repo-metadata>
+        <name>XenLauncher Default Repository</name>
+        <author>Benjamin Gwynn</author>de
+    </repo-metadata>
+    <package id="test">
+        <mod id="testmod.jar">
+            <name>Test Mod file</name>
+            <source>https://github.com/benjamingwynn/xenlauncher-repo/jars</source>
+            <author>Benjamin Gwynn</author>
+        </mod>
+        <config id="config.cfg">
+            <name>Some config</name>
+            <source>https://github.com/benjamingwynn/xenlauncher-repo/config</source>
+            <author>Benjamin Gwynn</author>
+        </config>
+        <extra>
+            <folder id="testnewfolder">
+                <folder id="testnewsubfolder">
+                    <file id="testfile">
+                        <name>Test File</name>
+                        <source>https://github.com/benjamingwynn/xenlauncher-repo/extras</source>
+                        <author>Benjamin Gwynn</author>
+                    </file>
+                </folder>
+            </folder>
+        </extra>
+    </package>
+</repo>
