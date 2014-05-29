@@ -1,0 +1,26 @@
+Q. What's this?
+A. A repo for an upcoming project that uses git repos for managing its files.
+
+Q. Where's the source code for that project?
+A. I want to finish the project before I release it.
+
+Q. Why Git? Why GitHub?
+A. Git is easy to work with for source code, etc. GitHub is free ;)
+
+Q. So you're hosting binaries on GitHub.
+A. Not entirely. This repo contains an XML file that points to binaries in different places.
+
+Q. But there are JAR's here.
+A. That stuff's mainly for testing. But JAR's may stick around if I find it difficult to grab them from their source.
+
+Q. So what's this config stuff?
+A. That 'config stuff' is the configuration for the binaries in the different places.
+
+Q. I see Java source code.
+A. Another feature I plan on adding is the ability to compile at runtime from this source code.
+
+Q. What is XenLauncher?
+A. XenLauncher is the 'upcoming project' I'm working on.
+
+Q. Just tell us already what XenLauncher is.
+A. That's not a question, but XenLauncher is (yet another) Minecraft Launcher, except a bit different. Custom repos can be added to the launcher that point to Git locations, so the launcher grabs the files needed from the points referred to in the repo.xml files to create modpacks that can be easily distributed. As mentioned before, config files can also be grabbed as well as source code.
