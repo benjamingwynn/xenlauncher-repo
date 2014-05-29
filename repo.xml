@@ -2,7 +2,7 @@
 <repo>
     <repo-metadata>
         <name>XenLauncher Default Repository</name>
-        <author>Benjamin Gwynn</author>de
+        <author>Benjamin Gwynn</author>
     </repo-metadata>
     <package id="test">
         <mod id="testmod.jar">
