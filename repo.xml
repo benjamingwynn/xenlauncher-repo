@@ -4,27 +4,27 @@
         <name>XenLauncher Default Repository</name>
         <author>Benjamin Gwynn</author>
     </repo-metadata>
-    <package id="test">
-        <mod id="testmod.jar">
-            <name>Test Mod file</name>
-            <source>https://github.com/benjamingwynn/xenlauncher-repo/jars</source>
-            <author>Benjamin Gwynn</author>
-        </mod>
-        <config id="config.cfg">
-            <name>Some config</name>
-            <source>https://github.com/benjamingwynn/xenlauncher-repo/config</source>
-            <author>Benjamin Gwynn</author>
-        </config>
-        <extra>
-            <folder id="testnewfolder">
-                <folder id="testnewsubfolder">
-                    <file id="testfile">
-                        <name>Test File</name>
-                        <source>https://github.com/benjamingwynn/xenlauncher-repo/extras</source>
-                        <author>Benjamin Gwynn</author>
-                    </file>
-                </folder>
-            </folder>
-        </extra>
-    </package>
+    <pack>
+        <pack-metadata>
+            <name>Test Modpack</name>
+            <version>0.1</version>
+        </pack-metadata>
+        <minecraft>
+            <version>1.6.4</version>
+        </minecraft>
+        <package>
+            <package-metadata>
+                <name>Test Mod Package</name>
+                <author>Benjamin Gwynn</author>
+            </package-metadata>
+            <modjar>
+                <file>jar.jar</file>
+                <get>todo</get>
+            </modjar>
+            <config>
+                <name>someconfig.cfg</name>
+                <get>todo</get>
+            </config>
+        </package>
+    </pack>
 </repo>
