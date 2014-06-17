@@ -1,0 +1,7 @@
+# Modpack meta information. This is an example comment.
+
+name: TestPack
+short-description: Modpack for testing XenLauncher.
+description: This Modpack is for testing XenLauncher, it is highly experimental and may change at any time·
+version: 0.1
+minecraft-forge: true
